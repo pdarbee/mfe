@@ -1,4 +1,4 @@
-name: Azure Static Web Apps CI/CD
+name: Marketing - Azure Static Web Apps CI/CD
 
 on:
   push:
