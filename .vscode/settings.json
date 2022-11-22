@@ -1,0 +1,8 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/899b9dba-4197-4617-b957-6f2859b67cb7/AppServices/subscriptions/899b9dba-4197-4617-b957-6f2859b67cb7/resourceGroups/mfe-project-rg/providers/Microsoft.Web/sites/mfe-project",
+    "appService.deploySubpath": "container\\dist"
+}
