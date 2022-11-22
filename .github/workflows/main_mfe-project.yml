@@ -56,7 +56,7 @@ jobs:
       with:
         name: node-app
         app_location: "/"
-        output_location: "dist"
+        output_location: "/dist"
         path: "."
 
   deploy:
