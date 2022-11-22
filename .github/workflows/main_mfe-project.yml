@@ -28,7 +28,8 @@ env:
   AZURE_WEBAPP_NAME: "mfe-project"    # set this to your application's name
   AZURE_WEBAPP_PACKAGE_PATH: '.'      # set this to the path to your web app project, defaults to the repository root
   NODE_VERSION: '16.x'                # set this to the node version to use
-  OUTPUT_LOCATION: "/container/dist"
+  APP_LOCATION: "/"
+  OUTPUT_LOCATION: "dist"
 
 permissions:
   contents: read
