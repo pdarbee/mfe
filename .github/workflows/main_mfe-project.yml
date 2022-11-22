@@ -55,9 +55,8 @@ jobs:
       uses: actions/upload-artifact@v3
       with:
         name: node-app
-        app_location: "/"
-        output_location: "/dist"
-        path: "."
+        app_location: "./"
+        output_location: "./dist"
 
   deploy:
     permissions:
