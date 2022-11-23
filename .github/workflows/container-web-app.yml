@@ -45,9 +45,8 @@ jobs:
       uses: actions/setup-node@v3
       with:
         node-version: ${{ env.NODE_VERSION }}
-        dependency-path: "package.json"
         #cache: 'npm'
-        cache-dependency-path: "package-lock.json"
+        #cache-dependency-path: "package-lock.json"
         args: deploy --dir=container --prod
 
     - name: npm install, build, and test
