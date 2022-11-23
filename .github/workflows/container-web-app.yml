@@ -45,8 +45,9 @@ jobs:
       uses: actions/setup-node@v3
       with:
         node-version: ${{ env.NODE_VERSION }}
-        #cache: 'npm'
-        cache-dependency-path: "package-lock.json"
+        cache: 'npm'
+        cache-dependency-path: "./container/package-lock.json"
+
 
 
     - name: npm install, build, and test
@@ -62,7 +63,7 @@ jobs:
       uses: actions/upload-artifact@v3
       with:
         name: node-app
-        app_location: "container"
+        app_location: "/container"
         output_location: "dist"
         path: .
 
