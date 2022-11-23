@@ -63,8 +63,6 @@ jobs:
       uses: actions/upload-artifact@v3
       with:
         name: node-app
-        app_location: "/marketing"
-        output_location: "dist"
         path: .
 
   deploy:
