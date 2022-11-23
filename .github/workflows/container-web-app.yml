@@ -54,6 +54,7 @@ jobs:
       run: |
         pwd
         ls -la
+        cd container
         npm install
         npm run build --if-present
         
